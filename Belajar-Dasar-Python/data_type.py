@@ -23,6 +23,7 @@ print(type(daftarBuah))
 
 daftarLaptop = ("Asus", "Lenovo", "HP", "Dell")
 print(daftarLaptop)
+# daftarLaptop[1] = "Acer"  # Akan menghasilkan error karena tuple tidak dapat diubah
 print(type(daftarLaptop))
 
 # Sets
@@ -33,6 +34,9 @@ print(type(daftarLaptop))
 - Use {} to define a set'''
 
 daftarAngka = {1, 2, 3, 4, 5}
+print(daftarAngka)
+daftarAngka.add(6)  # Menambahkan elemen baru
+daftarAngka.remove(2)  # Menghapus elemen tertentu
 print(daftarAngka)
 print(type(daftarAngka))
 
@@ -45,4 +49,6 @@ print(type(daftarAngka))
 
 daftarMahasiswa = {"nama": "John", "usia": 20, "jurusan": "Informatika"}
 print(daftarMahasiswa)
+daftarMahasiswa["nama"] = "Jackson" # Mengubah nilai berdasarkan kunci
+print(daftarMahasiswa["usia"])  # Mengakses nilai berdasarkan kunci
 print(type(daftarMahasiswa))
