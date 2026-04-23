@@ -6,6 +6,13 @@
 
 daftarBuah = ["apel", "jeruk", "pisang", "mangga"]
 print(daftarBuah)
+print(daftarBuah[0])  # Mengakses elemen pertama
+daftarBuah[1] = "anggur"  # Mengubah elemen kedua
+daftarBuah.append("semangka")  # Menambahkan elemen baru
+daftarBuah.insert(2, "kiwi")  # Menyisipkan elemen pada indeks tertentu
+daftarBuah.remove("pisang")  # Menghapus elemen tertentu
+daftarBuah.pop()  # Menghapus elemen terakhir
+print(daftarBuah)
 print(type(daftarBuah))
 
 # Tuples
