@@ -4,7 +4,7 @@ nama_belakang = "Ahmad Irawan"
 
 # Tipe data integer
 tahun_lahir = 2005
-umur = 19
+umur = 21
 
 # Tipe data float
 tinggi = 168.5
