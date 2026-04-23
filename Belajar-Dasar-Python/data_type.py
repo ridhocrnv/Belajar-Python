@@ -50,5 +50,7 @@ print(type(daftarAngka))
 daftarMahasiswa = {"nama": "John", "usia": 20, "jurusan": "Informatika"}
 print(daftarMahasiswa)
 daftarMahasiswa["nama"] = "Jackson" # Mengubah nilai berdasarkan kunci
+daftarMahasiswa["semester"] = 4  # Menambahkan pasangan kunci-nilai baru
 print(daftarMahasiswa["usia"])  # Mengakses nilai berdasarkan kunci
+print(daftarMahasiswa)
 print(type(daftarMahasiswa))
